@@ -1,4 +1,4 @@
-**Francis Donoso** **& ** **Massimo Vicenzo**
+**Francis Donoso & Massimo Vicenzo**
 
 **Introduction to Computer Programming 360-420: Section 01**
 
