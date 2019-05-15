@@ -22,9 +22,9 @@ This baseline gives an accuracy of about 65%, which is much less accurate than o
 
 **Analysis of different error types**
 
- 	What is a false positive? It is when we predict something to be positive, when in reality it is negative. For example, when doctors say that you are sick when really you aren't sick.
+What is a false positive? It is when we predict something to be positive, when in reality it is negative. For example, when doctors say that you are sick when really you aren't sick.
 
-​	What is a false negative? It is when we predict something to be negative, when in reality it is positive. For example, when doctors say that you aren't sick when you are sick.
+What is a false negative? It is when we predict something to be negative, when in reality it is positive. For example, when doctors say that you aren't sick when you are sick.
 
 **Precision vs. Recall**
 
@@ -68,4 +68,4 @@ As the parameter k increases...
 - The precision increases
 - The recall Decreases
 
-When we do cases like breast cancer we want a higher recall because we would never want to give somebody with breast cancer a false negative.
+When we do cases like breast cancer we want a higher recall because we would never want to give somebody with breast cancer a false negative. Being less precise in these scenarios is better because telling someone who doesn't have cancer that they do isn't the end of the world, but telling someone they don't when they do could be the end of the world for that person.
