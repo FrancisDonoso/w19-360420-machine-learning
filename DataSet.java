@@ -145,8 +145,8 @@ public class DataSet {
   // by user
   public static List<DataPoint> getTestSet(List<DataPoint> fullDataSet, double fractionTestSet) {
 
-    // Random rnd = new Random(123);
-    // Collections.shuffle(fullDataSet, rnd);
+    //Random rnd = new Random(123);
+    //Collections.shuffle(fullDataSet, rnd);
     Collections.shuffle(fullDataSet);
 
     List<DataPoint> testSet = new ArrayList<DataPoint>();
@@ -250,6 +250,18 @@ public class DataSet {
   ////////////////////////////////////////////////////////////////////////////
   // TASK 4: make a method here called distanceEuclid 
 
+  public static double distanceEuclid( DataPoint a, DataPoint b)
+  {
+	  double eucl = 0;
+	  double[] x1 = a.getX();
+	  double[] x2 = b.getX();
+	  for (int i = 0; i<x1.length; i++)
+	  {
+		  eucl = eucl + (x1[i] - x2[i]) * (x1[i] - x2[i]);
+	  }
+		  return Math.sqrt(eucl);
+  }
+  
   ////////////////////////////////////////////////////////////////////////////
 
 
